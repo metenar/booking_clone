@@ -1,0 +1,144 @@
+.searchResult{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.sRImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.sRDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.sRDesctitle{
+    font-size: 16px;
+    color: #0071c2;
+}
+.sRDescDistance{
+    font-size: 12px;
+}
+.sRDescTaxiOp{
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    max-width: max-content;
+    padding: 3px;
+    border-radius: 5px; 
+}
+.sRDescSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sRDescFeatures{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border-left:2px solid lightgray;
+    padding: 0px 7px;
+}
+.sRDescFeaturesTitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sRDescFeaturesInfo{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.sRDescFeatureswarnings{
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+.sRDescSCancelOp{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+}
+.sRDescSCancelOpSubtitle{
+    font-size: 12px;
+    color: #008009;
+}
+.sRDetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+.sRDetailsRating{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.ratingText{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    font-size: 16px;
+    font-weight: 500;
+}
+.review{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+}
+.ratingButton{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.sRDetailsLocation{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0071c2;
+}
+.sRDetailsOptions{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(135, 132, 132);
+}
+.sRDetailsPrize{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 128, 0);
+}
+.sRDetailsButtonGroup{
+    background-color: #0071c2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sRDetailsAvailability{
+    background-color: #0071c2;
+    color: white;
+    padding: 5px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.sRDetailsIcon{
+    font-size: 12px;
+}
