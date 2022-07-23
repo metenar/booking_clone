@@ -1,0 +1,133 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.hotelDetailsBtn{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    background-color: #0071c2;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.hotelTitle{
+    font-size: 20px;
+}
+.hotelAddress{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hotelDistance{
+    color: #0071c2;
+    font-weight: 500;
+}
+.hotelPriceHighlight{
+    color: #008009;
+    font-weight: 500;
+}
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotelImage{
+    width: 33%;
+}
+.hotelImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.hotelDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.hotelDetailsText{
+    flex: 3;
+}
+.hotelDetailsDesc{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.hotelDetailsPrize{
+    flex: 1;
+    background-color: #ebf3ff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.hotelPrizeTitle{
+    font-size: 18px;
+    color: #555;
+}
+.hotelPrizeDesc{
+    font-size: 14px;
+}
+.hotelPrize{
+    font-weight: 300;
+}
+.hotelPrizeBtn{
+    border: none;
+    background-color: #0071c2;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.hotelSlider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.401);
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+}
+.slidercloseBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: lightgray;
+}
+.arrow{
+    font-size: 50px;
+    cursor: pointer;
+    color: lightgray;
+    margin: 40px;
+}

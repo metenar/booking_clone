@@ -1,5 +1,6 @@
 .mailList{
     width: 100%;
+    overflow: hidden;
     background-color: #003580;
     color: white;
     margin-top: 50px;
